@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tic Tac - ARG</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Cristina <span>vs</span> Macri</h1>
+        <div class="current-status" id="currentStatus">
+            <p>Es el turno de</p>
+          <img src="https://i0.wp.com/40.media.tumblr.com/62231d80f5807991f5a45d244b4d7e19/tumblr_inline_nuxg89Osib1qk1op9_500.png" alt="" id="currentBeastImg">
+        </div>
+        <div class="board" id="board">
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+        </div>
+        <div class="game-end-overlay" id="gameEndOverlay">
+          <div class="winning-message" data-winning-message>
+            <p></p>
+          </div>
+          <div class="btn-container">
+            <button class="reset-button" id="resetButton">Jugar Denuevo</button>
+          </div>
+        </div>
+</body>
+<h3>Desarrollado por Maximiliano Godoy</h3>    
+<script src="funciones.js"></script>
+</html>
